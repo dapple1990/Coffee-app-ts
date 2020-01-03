@@ -1,26 +1,20 @@
 import React from "react";
-import {Form, FormControl, FormGroup, ControlLabel} from "react-bootstrap";
-import PropTypes from "prop-types";
+import { Form, FormControl, FormControlProps } from "react-bootstrap";
 
 export type InputFormProps = {
   value: any;
-  onChange: React.FormEvent<InputFormProps & FormControl>;
+  onChange: React.FormEventHandler<HTMLInputElement>;
 };
 
-export const InputForm = ({ value, onChange }: InputFormProps) => {
+export const InputForm = ({ value, onChange }: InputFormProps) => (
   <div className="input-container">
     <Form>
-      <FormGroup controlId="formBasicEmail">
-        <ControlLabel>Cup of Coffee</ControlLabel>
-        <FormControl type="number" onChange ={(event: React.FormEvent<InputFormProps & FormControl>) => {onChange}} value={value} min="1" />
-      </FormGroup>
+      <Form.Group controlId="formBasicEmail">
+        <Form.Label>Cup of Coffee</Form.Label>
+        <FormControl type="number" onChange={onChange} value={value} min="1" />
+      </Form.Group>
     </Form>
-  </div>;
-};
-
-InputForm.propTypes = {
-  onChange: PropTypes.func,
-  value: PropTypes.number
-};
+  </div>
+);
 
 export default InputForm;

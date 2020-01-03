@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.div-wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  background-image: linear-gradient(
+    to top,
+    #445978,
+    #6f6080,
+    #926a7e,
+    #a87978,
+    #b08d76
+  );
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #233651;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.coffee {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #5E3917;
+}
+
+.water {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #007FAF;
+}
+
+.milk {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #D5CABD;
+}
+
+.navbar-opacity {
+  opacity: 0.75;
+}
+
+.giphy-header {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 4em;
+  color: #233651;
+}
+
+.img-giphy {
+  margin: 0 auto;
+  width: 30vw;
+}
+
+.giphy-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.fact-card {
+  margin: 0 auto 5px;
+  margin-top: 8px;
+  color: #233651;
+  font-family: "Roboto", sans-serif;
+  background: none;
+}
+
+.fact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fact-button {
+  margin: 0 auto;
+  margin-top: 5px;
+  background: #b08d76;
+  border-color: #b08d76;
+  color: #233651;
+
+}
+
+.supportButton {
+  margin: 0 auto;
+  margin-top: 25px;
+  color: #233651;
+  background: #b08d76;
+  border-color: #b08d76;
+}
+
+#submit-button {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  margin-top: 25px;
+  color: #233651;
+  background: #b08d76;
+  border-color: #b08d76;
+}
+
+#dropdown-basic-button {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  margin-top: 25px;
+  color: #233651;
+  background: #b08d76;
+  border-color: #b08d76;
+}
+
+.input-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.typeButton {
+  margin-bottom: 8px;
+}
+
+.coffeeType {
+  margin: auto;
+}
